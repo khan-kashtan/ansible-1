@@ -1,0 +1,8 @@
+plugin: gcp_compute
+projects:
+  - project_id
+auth_kind: serviceaccount
+service_account_file: /home/username/path_to_file/service_account.json
+keyed_groups:
+  - key: name
+    separator: ""
